@@ -1,0 +1,59 @@
+body {
+    background-color: #030a22;
+    height: 100vh;
+    color: rgb(202, 202, 202);
+}
+
+.youtube-input{
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-button{
+    margin-left: 1rem;
+    border: unset;
+    background-color: #eb290f;
+}
+
+.loading{
+    max-width: 8rem;
+}
+
+#loading-container{
+    display: none;
+}
+
+.form-control::placeholder {
+    opacity: 60%;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer * {
+    margin-left: 1rem;
+    vertical-align: middle;
+    
+}
+
+footer p {
+    margin-bottom: unset;
+    margin-left: unset;
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(202, 202, 202);
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:rgb(202, 202, 202);
+    font-weight: bold;
+}

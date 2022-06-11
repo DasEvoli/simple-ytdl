@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./eevee_1_16x16.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <video autoplay muted loop id="background-animation" style="object-fit: fill; width: 100%; height: 100%; position: fixed; z-index: -1; opacity: 30%">
+            <source src="./backgrounds/rain.mp4" type="video/mp4">
+          </video>
+        <div class="container" style="display: flex; justify-content: center; align-items: center; height: 95%;">
+            <div class="youtube-input" style="display: flex; height: fit-content">
+                <input id="video-input" class="form-control" placeholder="https://www.youtube.com/watch?v=o-YBDTqX_ZU" style="border-radius: 1rem 0px 0px 1rem; width: 30rem">
+                <select onchange="fileFormatSelectionChange()" id="file-format-selection" class="form-control" style="width: fit-content; border-radius: 0px 5px 5px 0px">
+                    <option>Video</option>
+                    <option>Audio</option>
+                </select>
+                <select id="quality-audio-selection" class="form-control" style="width: fit-content; border-radius: 0px 5px 5px 0px; display: none">
+                    <option>Best</option>
+                    <option>Medium</option>
+                    <option>Worst</option>
+                </select>
+                <button class="btn btn-primary download-button" onclick="downloadClick()">Download</button>
+            </div>
+        </div>
+        <div id="loading-container" style="position: fixed; left: 42%; top: 55%;">
+            <span style="margin-left:1rem">loading...</span>
+            <img class="loading" src="./loading/loading_1.gif"/>
+        </div>
+        <footer>
+            <a href="https://www.flaticon.com/de/kostenloses-icon/eevee_188995"><p>Icon</p></a>
+            <img src="./github_icon.png"/>
+            <a href="https://github.com/DasEvoli"><p>DasEvoli</p></a>
+            
+            
+        </footer>
+    </body>
+</html>
