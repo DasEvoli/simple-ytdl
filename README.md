@@ -1,9 +1,9 @@
 # Simple Youtube Downloader
-My goal was to create a simple website that I can use to download Youtube videos either as Video or as mp3.
+My goal was to create a simple frontend that I can use to download Youtube videos either as video or as mp3.
 In backend we use [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 We use yt-dlp because the download rate is much higher.
 
-You can see the website here: https://ytdl.dasevoli.com
+You can find my website here: https://ytdl.dasevoli.com
 
 The small .py file exists for me to delete all output files on my server and is completely optional.
 
