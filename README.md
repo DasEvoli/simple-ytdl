@@ -7,17 +7,15 @@ You can see the website here: https://ytdl.dasevoli.com
 
 The small .py file exists for me to delete all output files on my server and is completely optional.
 
-/loading can contain an animation when downloader is busy
-
-/output will contain all the videos that got downloaded (needs manual cleanup
-
-/backgrounds can contain a background image/animation
-
 # Requirements
 * PHP >= 8.0
 * ffmpeg
 * ffprobe
 * yt-dlp
+
+# Requirements
+* HTML contains a .mp4 file and a .gif that needs to be replaced
+* Webserver for PHP
 
 ## Authors
 ![Image of DasEvoli](https://i.imgur.com/xNcLWUT.png) DasEvoli (Vinzenz Wetzel)
