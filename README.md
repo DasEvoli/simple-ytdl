@@ -13,7 +13,7 @@ The small .py file exists for me to delete all output files on my server and is 
 * ffprobe
 * yt-dlp
 
-# Requirements
+# Setup
 * HTML contains a .mp4 file and a .gif that needs to be replaced
 * Webserver for PHP
 
