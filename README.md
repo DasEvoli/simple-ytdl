@@ -14,7 +14,7 @@ The small .py file exists for me to delete all output files on my server and is 
 * yt-dlp
 
 # Setup
-* HTML contains a .mp4 file and a .gif that needs to be replaced
+* HTML contains a .mp4 file, a .gif and a title icon that needs to be replaced
 * Webserver for PHP
 
 ## Authors
