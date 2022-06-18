@@ -1,6 +1,10 @@
 import os
 import glob
+import time
 
-files = glob.glob("./output/*")
-for f in files:
-    os.remove(f)
+
+while True:  
+    time.sleep(300)
+    files = glob.glob("./output/*")
+    for f in files:
+        os.remove(f)
